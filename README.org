@@ -1,0 +1,15 @@
+* Advent of Code 2025
+Another fun year of [[https://adventofcode.com/][Advent of Code]]!
+
+Choosing Rust again this year. Also trying a [[https://en.wikipedia.org/wiki/Parsing_expression_grammar][PEG parser]] for Rust [[https://pest.rs/]]
+
+Run a day by bin
+#+begin_src bash
+cargo run --release --bin day1p1 < /data/day1
+#+end_src
+
+or using just
+#+begin_src bash
+just run day1p1 day1
+just run-release day1p1 day1
+#+end_src

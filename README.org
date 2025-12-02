@@ -8,7 +8,7 @@ Run a day by bin
 cargo run --release --bin day1p1 < /data/day1
 #+end_src
 
-or using just
+or using [[https://github.com/casey/just][Just]]
 #+begin_src bash
 just run day1p1 day1
 just run-release day1p1 day1
